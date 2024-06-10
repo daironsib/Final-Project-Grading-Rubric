@@ -1,0 +1,124 @@
+html {
+    background: linear-gradient(to left, transparent, rgb(27, 42, 75) 120%),
+      url("../images/contactUs.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      height: 100%;
+      overflow: scroll;
+  }
+
+  .container {
+    padding: 15px;
+    margin: 15px;
+    width: 60%;
+    background-color: rgb(27, 42, 75);
+    position:relative;
+  }
+
+  .container:after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    border: #E8E5DA 3px solid;
+    pointer-events: none;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-left: 12px;
+    color:#E8E5DA;
+  }
+  
+  #name, #email, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #E8E5DA;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+  }
+  
+  input[type=submit] {
+    background: none;
+    margin: 0 auto;
+    outline: 0;
+    color:#E8E5DA;
+    border: #E8E5DA 3px solid;
+    padding: 12px 30px;
+    border-radius: 4px;
+    transition: all ease-in-out 0.1s;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  input[type=submit]:hover {
+    background: #E8E5DA;
+    color:#304C89;
+    transform: scale(1.2);
+    transition: 1s;
+  }
+  
+  .center {
+    text-align: center;
+  }
+
+
+  /* Media Queries */
+
+/* Tablet view */
+@media (max-width: 900px) {
+  .container {
+      width: 80%;
+      margin: 10px auto;
+      padding: 10px;
+  }
+
+  label {
+      font-size: 16px;
+  }
+
+  #name, #email, textarea {
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 14px;
+  }
+
+  input[type=submit] {
+      padding: 10px 25px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+  html {
+      background-size: cover;
+      background-attachment: scroll;
+  }
+
+  .container {
+      width: 95%;
+      margin: 5px auto;
+      padding: 8px;
+  }
+
+  label {
+      font-size: 14px;
+  }
+
+  #name, #email, textarea {
+      padding: 6px;
+      margin-top: 4px;
+      margin-bottom: 12px;
+  }
+
+  input[type=submit] {
+      padding: 8px 20px;
+  }
+}

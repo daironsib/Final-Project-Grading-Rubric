@@ -1,0 +1,57 @@
+html {
+    background: linear-gradient(to left, transparent, #304C89 120%),
+      url("./images/contactUs.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      height: 100%;
+      overflow: scroll;
+  }
+
+  .container {
+    padding: 15px;
+    margin: 15px;
+    width: 60%;
+    border-top: #E8E5DA 3px solid;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-left: 12px;
+    color:#E8E5DA;
+  }
+  
+  input[type=text],input[type=email], textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #E8E5DA;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+  }
+  
+  input[type=submit] {
+    background: none;
+    margin: 0 auto;
+    outline: 0;
+    color:#E8E5DA;
+    border: #E8E5DA 3px solid;
+    padding: 12px 30px;
+    border-radius: 4px;
+    transition: all ease-in-out 0.1s;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  input[type=submit]:hover {
+    background: #E8E5DA;
+    color:#304C89;
+    transform: scale(1.2);
+    transition: 1s;
+  }
+  
+  .center {
+    text-align: center;
+  }

@@ -1,0 +1,104 @@
+{
+    "countries": [
+        {
+            "id": 1,
+            "name": "Ireland",
+            "imageUrl": "./images/ireland.jpg",
+            "description": "Ireland is a picturesque island nation known for its lush landscapes, rich cultural heritage, and friendly, hospitable people.",
+            "timezone": "Europe/Dublin",
+            "cities": [
+                {
+                    "name": "Dublin, Ireland",
+                    "imageUrl": "./images/dublin.jpg",
+                    "description": "Dublin is a vibrant city known for its rich history, lively pub scene, and as the cultural and political heart of Ireland.",
+                    "timezone": "Europe/Dublin"
+                },
+                {
+                    "name": "Cork, Ireland",
+                    "imageUrl": "./images/cork.jpg",
+                    "description": "Cork is a charming city in southern Ireland renowned for its vibrant arts scene, picturesque waterways, and rich maritime history.",
+                    "timezone": "Europe/Dublin"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Japan",
+            "imageUrl": "./images/japan.jpg",
+            "description": "Japan is a dynamic country blending tradition with innovation, renowned for its cherry blossoms, historic temples, and modern metropolises.",
+            "timezone": "Asia/Tokyo",
+            "cities": [
+                {
+                    "name": "Tokyo, Japan",
+                    "imageUrl": "./images/tokyo.jpg",
+                    "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture.",
+                    "timezone": "Asia/Tokyo"
+                },
+                {
+                    "name": "Kyoto, Japan",
+                    "imageUrl": "./images/kyoto.jpg",
+                    "description": "Known for its historic temples, gardens, and traditional tea houses.",
+                    "timezone": "Asia/Tokyo"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Brazil",
+            "imageUrl": "./images/brazil.jpg",
+            "description": "Brazil is a vibrant country known for its stunning beaches, lively culture, and lush rainforests.",
+            "timezone": "America/Sao_Paulo",
+            "cities": [
+                {
+                    "name": "Rio de Janeiro, Brazil",
+                    "imageUrl": "./images/rio.jpg",
+                    "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks.",
+                    "timezone": "America/Sao_Paulo"
+                },
+                {
+                    "name": "São Paulo, Brazil",
+                    "imageUrl": "./images/saopaulo.jpg",
+                    "description": "The financial hub with diverse culture, arts, and a vibrant nightlife.",
+                    "timezone": "America/Sao_Paulo"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Ukraine",
+            "imageUrl": "./images/ukraine.jpg",
+            "description": "Ukraine is a diverse country in Eastern Europe, known for its rich history, scenic landscapes, and cultural heritage.",
+            "timezone": "Europe/Kyiv",
+            "cities": [
+                {
+                    "name": "Kyiv, Ukraine",
+                    "imageUrl": "./images/kyiv.jpg",
+                    "description": "Kyiv, the capital of Ukraine, is a vibrant city steeped in history, renowned for its majestic architecture, rich cultural heritage, and dynamic energy.",
+                    "timezone": "Europe/Kyiv"
+                },
+                {
+                    "name": "Lviv, Ukraine",
+                    "imageUrl": "./images/lviv.jpg",
+                    "description": "Lviv, a city in western Ukraine, is a cultural gem known for its charming cobblestone streets, picturesque architecture, and vibrant arts scene.",
+                    "timezone": "Europe/Kyiv"
+                }
+            ]
+        }
+    ],
+    "beaches": [
+        {
+            "id": 1,
+            "name": "Bora Bora, French Polynesia",
+            "imageUrl": "./images/bora.jpg",
+            "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows.",
+            "timezone": "Pacific/Tahiti"
+        },
+        {
+            "id": 2,
+            "name": "Copacabana Beach, Brazil",
+            "imageUrl": "./images/copacabana.jpg",
+            "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views.",
+            "timezone": "America/Sao_Paulo"
+        }
+    ]
+}

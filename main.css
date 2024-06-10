@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Patua One", serif;
+}
+
+/* styling menu/navigation bar */
+
+nav {
+    background-color: #304C89;
+    color: #CDC392;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #E8E5DA 3px solid;
+  }
+
+  #navLogo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    width: auto;
+    padding: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 3px;  
+    font-size: 17px;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+    padding: 3px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #E8E5DA;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+    border: #E8E5DA 2px solid;
+  }
+
+  nav a:hover{
+    background-color: #E8E5DA;
+    color: #304C89;
+  }
+
+  #conditionInput {
+    border-radius: 10px;
+    padding: 5px;
+    width: 250px;
+    font-size: 14px;
+    border: #E8E5DA 2px solid;
+    color: #E8E5DA;
+    background-color: #304C89;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #conditionInput::placeholder {
+    color: #E8E5DA;
+  }
+
+  nav button {
+    padding: 8px;
+    background-color: #304C89;
+    color: #96ADD9;
+    border:#304C89 1px solid;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  nav button:hover{
+    transform: scale(1.5);
+  }
+
+  
+  /* styling title */
+
+  #descriptionContainer {
+    display: block;
+    margin: 50px 30px 0px 30px;
+    border-left: solid 5px #E8E5DA;
+    color: #E8E5DA;
+  }
+  
+  #title {
+    font-size: 90px;
+    height: auto;
+    margin: 30px;
+    width: 50%;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 30px;
+    width: 50%;
+    padding: 10px;
+    border: solid 1px #E8E5DA;
+  }
+
+/* styling social icons */
+
+  #socialIcons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5%;
+    right: 20px;
+  }
+
+ .icon {
+    width: 50px;
+    height: 50px;
+    padding: 5%;
+ }
+
+ .icon:hover {
+    transform: scale(1.5) rotate(360deg);
+    transition: 1s;
+ }
